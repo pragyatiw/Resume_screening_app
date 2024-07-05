@@ -11,18 +11,6 @@ from nltk.corpus import stopwords
 
 # In[2]:
 
-import os,shutil
-import sys
-import logging
-import six
-import pdfminer.settings
-pdfminer.settings.STRICT = False
-import pdfminer.high_level
-import pdfminer.layout
-from pdfminer.image import ImageWriter
-
-
-# In[3]:
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer,TfidfVectorizer
